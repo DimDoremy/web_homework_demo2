@@ -5,7 +5,7 @@
   Time: 18:35
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8"%>
 <html>
 <head>
     <title>实验二</title>
@@ -31,7 +31,7 @@
     <button>实现模拟购物车</button>
 </a>
 <br />
-<a href="${pageContext.request.contextPath}/rdservlet">
+<a href="${pageContext.request.contextPath}/login.jsp">
     <button>实验带图形验证码的用户登陆</button>
 </a>
 <br />

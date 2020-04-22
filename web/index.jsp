@@ -22,18 +22,18 @@
 <a href="${pageContext.request.contextPath}/form.jsp">
     <button>编写Servlet，测试获取客户端表单中的文本框、复选框的信息</button>
 </a>
-<br />
+<br/>
 <a href="${pageContext.request.contextPath}/cookie">
     <button>显示用户上次访问时间</button>
 </a>
-<br />
+<br/>
 <a href="${pageContext.request.contextPath}/lbservlet">
     <button>实现模拟购物车</button>
 </a>
-<br />
-<a href="${pageContext.request.contextPath}/rdservlet">
+<br/>
+<a href="${pageContext.request.contextPath}/login.jsp">
     <button>实验带图形验证码的用户登陆</button>
 </a>
-<br />
+<br/>
 </body>
 </html>

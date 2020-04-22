@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
-    
+
     <servlet>
         <servlet-name>RDS</servlet-name>
         <servlet-class>org.servlet.RequestDemoServlet</servlet-class>
@@ -13,12 +13,12 @@
         <servlet-name>RDS</servlet-name>
         <url-pattern>/rdservlet</url-pattern>
     </servlet-mapping>
-    
+
     <servlet>
         <servlet-name>RFS</servlet-name>
         <servlet-class>org.servlet.RefererServlet</servlet-class>
     </servlet>
-    
+
     <servlet-mapping>
         <servlet-name>RFS</servlet-name>
         <url-pattern>/rfservlet</url-pattern>
@@ -43,12 +43,12 @@
         <servlet-name>CS</servlet-name>
         <url-pattern>/cookie</url-pattern>
     </servlet-mapping>
-    
+
     <servlet>
         <servlet-name>LBS</servlet-name>
         <servlet-class>org.cart.ListBookServlet</servlet-class>
     </servlet>
-    
+
     <servlet-mapping>
         <servlet-name>LBS</servlet-name>
         <url-pattern>/lbservlet</url-pattern>
@@ -72,5 +72,45 @@
     <servlet-mapping>
         <servlet-name>CTS</servlet-name>
         <url-pattern>/ctservlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>IS</servlet-name>
+        <servlet-class>org.login.IndexServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>IS</servlet-name>
+        <url-pattern>/indexservlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LIS</servlet-name>
+        <servlet-class>org.login.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LIS</servlet-name>
+        <url-pattern>/loginservlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LOS</servlet-name>
+        <servlet-class>org.login.LogoutServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LOS</servlet-name>
+        <url-pattern>/logoutservlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CHS</servlet-name>
+        <servlet-class>org.login.CheckServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CHS</servlet-name>
+        <url-pattern>/checkservlet</url-pattern>
     </servlet-mapping>
 </web-app>
